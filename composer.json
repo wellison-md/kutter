@@ -1,0 +1,24 @@
+{
+    "name": "wellison/kutter",
+    "description": "eletrical harness circuit manager",
+    "type": "project",
+    "require": {
+        "dompdf/dompdf": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wellison\\Kutter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wellison M. Dias",
+            "email": "wellisonmdias@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
