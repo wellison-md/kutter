@@ -1,0 +1,100 @@
+:root {
+    --rx1: #8500a7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans;
+}
+
+aside {
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    height: 100%;
+    background-color: #ccccccff;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.menubar {
+    width: 300px;
+    min-height: 100vh;
+    max-width: 300px;
+    background-color: #333;
+}
+
+.menubar-item {
+    padding: 12px 24px;
+    align-content: center;
+    margin-right: 48px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    background-color: black;
+    width: 100vw;
+    height: 52px;
+    background-color: #ecececff;
+}
+
+sub {
+    font-size: 10px;
+    color: grey;
+    font-style: italic;
+}
+
+.btns {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: var(--rx1);
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.btns:active a:active {
+    color: white;
+}
+.btns:after a:after {
+    color: white;
+}
+
+.secondary {
+    border: solid var(--rx1);
+    border-width: 3px;
+    color: var(--rx1);
+    background-color: white;
+    transition: 0.2s;
+}
+
+.primary {
+    border: solid var(--rx1);
+    border-width: 3px;
+    color: white;
+    background-color: #8500a7;
+}
+
+.btns:hover {
+    opacity:0.5;
+}
+
+.menubar-link {
+    color: white;
+}
+
+.icons-inverted {
+    filter:invert(100%);
+    opacity: 0.5;
+}
