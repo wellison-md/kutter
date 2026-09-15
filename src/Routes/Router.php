@@ -3,7 +3,7 @@
 namespace Wellison\Kutter\Routes;
 
 use Wellison\Kutter\Controllers\HomeController;
-
+use \Wellison\Kutter\Controllers\CableController;
 
 class Router {
 
@@ -12,6 +12,7 @@ class Router {
     public function __construct() {
         $this->routes = [
             "/" => [HomeController::class, "index"],
+            "/cabos" => [CableController::class, "index"],
         ];
     }
 
