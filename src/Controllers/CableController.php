@@ -3,6 +3,8 @@
 namespace Wellison\Kutter\Controllers;
 
 use \Wellison\Kutter\Services\CableService;
+use \Wellison\Kutter\Views\View;
+
 
 class CableController {
 
@@ -16,6 +18,6 @@ class CableController {
         
         $cables = $this->service->findAll();
 
-        require __DIR__ . "/../Views/Cables.php";
+        View::render('cables', $cables);
     }
 }

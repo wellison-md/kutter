@@ -1,5 +1,8 @@
 :root {
     --rx1: #8500a7;
+    --cz1: #333333;
+    --cz2: #999999;
+    --stripedline: #d2d2d2;
 }
 
 * {
@@ -98,3 +101,18 @@ sub {
     filter:invert(100%);
     opacity: 0.5;
 }
+
+table, th, td {
+  border: none;
+}
+
+.tbl-header {
+    background-color: var(--cz1);
+    height: 32px;
+    color: white;
+}
+
+.striped {
+    background-color: var(--stripedline);
+}
+
