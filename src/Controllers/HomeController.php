@@ -2,11 +2,13 @@
 
 namespace Wellison\Kutter\Controllers;
 
+use Wellison\Kutter\Views\View;
+
 
 class HomeController {
 
     public function index() {
         
-        require __DIR__ . "/../Views/Home.php";
+        View::render('home');
     }
 }
